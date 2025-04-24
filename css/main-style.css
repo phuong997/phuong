@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+*{scroll-behavior: smooth}
+#hero
+{
+	width: 100%;	
+	background-image: url( "../images/bg.jpg");
+	background-repeat: no-repeat; background-size: cover
+
+}
+
+
+h1{
+	color: #F1678A
+}	
+p{	
+	color: #F8FCFF
+}	
+h5{
+color: #F8FCFF	
+	
+}
+h4{
+	color: #F4F2F2
+}
+b{
+	color: #F1678A
+}
+a{	
+	color: #F1678A
+}	
+.contact-btn {
+    background-color: #F1678A; /* màu hồng cánh sen */
+    color: white;
+    padding: 5px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #F1678A; /* màu hồng đậm khi hover */
+}
+.btn-primary {
+    background-color: #F1678A !important;  /* màu nền */
+    border-color: #F1678A!important;      /* viền */
+    color: white !important;               /* chữ */
+}
+
+.btn-primary:hover {
+    background-color: #F1678A !important;
+    border-color: #F1678A !important;
+}.custom-navbar {
+    background-color: #28353f; /* đổi thành màu chủ nhân muốn */
+}.custom-progress {
+    background-color: #F1678A; 
+    color: white;
+    font-weight: bold;
+}h3 {
+    color: white; /* màu cho phần 'I'm a' */
+    font-family: 'Poppins', sans-serif; /* hoặc font giống ảnh */
+    font-weight: 300;
+}
+
+.highlight {
+    color: #F1678A;
+    font-weight: 500;
+}
+
+.fa-behance { color: #F1678A; }
+.fa-pinterest { color: #F1678A; }
+.fa-facebook { color: #F1678A; }
+.fa-youtube { color: #F1678A; }
+.fa-pencil { color: #28353f; }
+.fa-stop-circle-o { color: #28353f; }
+.fa-stop-circle { color: #28353f; }
+.fa-circle-o { color: #28353f; }
+
+
+
+
+.highlight {
+  color: #F1678A;
+  font-weight: bold;
+}
+.subtitle-highlight {
+  color: #262626;
+  font-style: italic; /* tuỳ chỉnh thêm nếu muốn */
+}
+.bg-text-highlight {
+  background-color: #133a60;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.nav-pills .nav-link {
+  color: #F1678A;
+  border: 2px solid #F1678A;
+  border-radius: 20px;
+  margin: 0 5px;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #F1678A;
+  color: white;
+  border-color: #F1678A;
+}
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #F4F2F2;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #F1678A;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+.timeline-section {
+  background-color: #133A60;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 100%;
+}
+
+.services-section {
+  background-color: #133A60;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 100%;
+}
+
+
+.services-section .text-info {
+  color: #17a2b8;
+}
+
+.services-section .fa {
+  color: #F4F2F2;
+}
+
